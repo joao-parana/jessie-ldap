@@ -4,5 +4,6 @@ set -e
 
 export HUB_USER_NAME=parana
 
+cd image
 docker build -t $HUB_USER_NAME/jessie-ldap .
 
